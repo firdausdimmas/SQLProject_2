@@ -2,6 +2,8 @@
 
 ### Project Overview
 
+![manufacturing](https://github.com/user-attachments/assets/f5ca4a63-e82b-4709-83cb-833e12e833ab)
+
 This project aims to improve manufacturing quality by applying Statistical Process Control (SPC). Using SQL, we analyze historical production data to calculate the Upper Control Limit (UCL) and Lower Control Limit (LCL) for product height. These limits define the acceptable range for production. Parts falling outside this range signal process issues that need correction. This data-driven approach helps maintain consistent product quality and ensures the manufacturing process runs efficiently with minimal defects.
 
 $ucl = avg\_height + 3 * \frac{stddev\_height}{\sqrt{5}}$
